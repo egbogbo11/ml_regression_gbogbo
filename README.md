@@ -81,23 +81,25 @@ git push origin main
 ## Project Outline
 ### Section 1. Load and Inspect the Data
 - 1.1 Load the dataset.
+- 1.2 Check for missing values and display summary statistics
 
 ### Section 2. Data Exploration and Preparation
 - 2.1 Explore data patterns and distributions
-- 2.2 Handle missing values and clean data
+- 2.2 Handle missing values and encode features
 
 ### Section 3. Feature Selection and Justification
 - 3.1 Choose input features for predicting the target.
 - 3.2 Define X (features) and y (target).
 
-### Section 4. Train a Classification Model
+### Section 4. Train a Model - Linear Regression
 - 4.1 Split the data
 - 4.2 Train Model using Scikit-Learn model.fit
 - 4.3 Evaluate Model Performance
 
-### Section 5. Improve the Model or Alternates
-- 5.1 Train an alternative classifier
-- 5.2 Evaluate Model Performance
+### Section 5. Improve the Model or Try Alternatives (Implement Pipelines)
+- 5.1 Implement Pipeline 1: Imputer → StandardScaler → Linear Regression
+- 5.2 Implement Pipeline 2: Imputer → Polynomial Features (degree=3) → StandardScaler → Linear Regression.
+- 5.3 Compare Performance
 
 ### Section 6. Final Thoughts and Insights
 - 6.1 Summarize findings
